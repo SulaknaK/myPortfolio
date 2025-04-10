@@ -2,6 +2,7 @@ import React from 'react';
 import '../Styles/Hero.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import profile_anim from '../assets/profile_anim.png';
+import Resume from '../assets/Resume.pdf';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faDribbble } from "@fortawesome/free-brands-svg-icons";
 
@@ -32,7 +33,7 @@ function Hero() {
       </div>
       <div className='hero-action'>
         <div className='hero-connect'><AnchorLink className="anchor-link" offset={50} href="#contact">Connect with me</AnchorLink></div>
-        <div className='hero-resume'> <a href="/resume.pdf" download="Resume_Sulakna Karunaratna.pdf"> My resume </a></div>
+        <div className='hero-resume'> <a href={Resume} download="Resume.pdf"> My resume </a></div>
       </div>
     </div>
   )
