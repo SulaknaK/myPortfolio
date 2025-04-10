@@ -10,7 +10,7 @@ function Hero() {
     <div id='home' className='hero'>
       <img src={profile_anim} alt=''></img>
       <h1><span>Hi </span>I'm Sulakna Karunaratna</h1>
-      <p>Full-Stack Developer and Business Analyst</p>
+      <p>UI/UX Developer</p>
       <div className="social-icons">
         <div className='social-icon'>
         <a href="https://github.com/SulaknaK" target="_blank" rel="noopener noreferrer">
