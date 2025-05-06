@@ -11,7 +11,7 @@ function Hero() {
     <div id='home' className='hero'>
       <img src={profile_anim} alt=''></img>
       <h1><span>Hi </span>I'm Sulakna Karunaratna</h1>
-      <p>UI/UX Developer</p>
+      <p>Full stack Developer || Business Analyst</p>
       <div className="social-icons">
         <div className='social-icon'>
         <a href="https://github.com/SulaknaK" target="_blank" rel="noopener noreferrer">
